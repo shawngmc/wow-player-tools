@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>World of Warcraft Tools : Config Manager</title>
+</head>
+
+<body>
+    <h1>World of Warcraft Tools : Config Manager</h1>
+    <form>
+        <div>
+            <label for="selectwowfolder">Select WoW folder: </label>
+            <input type="file" id="selectwowfolder" webkitdirectory />
+        </div>
+        <h2>Backup</h2>
+        <div>
+            <input type="checkbox" id="saveAddons" name="addons" value="addons">
+            <label for="saveAddons">Save Addons</label><br/>
+            <input type="checkbox" id="saveAddonSettings" name="addonSettings" value="addonSettings">
+            <label for="saveAddonSettings">Save Addon Settings</label><br/>
+            <input type="checkbox" id="saveCharacterSettings" name="characterSettings" value="characterSettings">
+            <label for="saveCharacterSettings">Save Character Settings</label><br/>
+            <input type="checkbox" id="saveGameConfig" name="gameConfig" value="gameConfig">
+            <label for="saveGameConfig">Save Game Config</label>
+        </div>
+        <div>
+            <label for="backupLocation">Select save location: </label>
+            <input type="file" id="backupLocation" />
+        </div>
+        <div>
+            <button type="button">Backup</button>
+        </div>
+        <h2>Clean</h2>
+        <div>
+            <input type="checkbox" id="cleanAddons" name="addons" value="addons">
+            <label for="cleanAddons">Clean Addons</label><br/>
+            <input type="checkbox" id="cleanAddonSettings" name="addonSettings" value="addonSettings">
+            <label for="cleanAddonSettings">Clean Addon Settings</label><br/>
+            <input type="checkbox" id="cleanCharacterSettings" name="characterSettings" value="characterSettings">
+            <label for="cleanCharacterSettings">Clean Character Settings</label><br/>
+            <input type="checkbox" id="cleanGameConfig" name="gameConfig" value="gameConfig">
+            <label for="cleanGameConfig">Clean Game Config</label>
+        </div>
+        <div>
+            <button type="button">Clean Only</button>
+        </div>
+        <h2>Restore</h2>
+        <div>
+            <label for="selectbackup">Select backup: </label>
+            <input type="file" id="selectbackup" />
+        </div>
+        <div>
+            <input type="checkbox" id="restoreAddons" name="addons" value="addons">
+            <label for="restoreAddons">Restore Addons</label><br/>
+            <input type="checkbox" id="restoreAddonSettings" name="addonSettings" value="addonSettings">
+            <label for="restoreAddonSettings">Restore Addon Settings</label><br/>
+            <input type="checkbox" id="restoreCharacterSettings" name="characterSettings" value="characterSettings">
+            <label for="restoreCharacterSettings">Restore Character Settings</label><br/>
+            <input type="checkbox" id="restoreGameConfig" name="gameConfig" value="gameConfig">
+            <label for="restoreGameConfig">Restore Game Config</label>
+        </div>
+        <div>
+            <button type="button">Restore Only</button>
+            <button type="button">Clean & Restore</button>
+        </div>
+    </form>
+</body>
+
+</html>

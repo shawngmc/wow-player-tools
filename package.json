@@ -1,0 +1,11 @@
+{
+  "name": "wow-player-tools",
+  "version": "1.0.0",
+  "description": "An electron-based desktop app to view character data.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
